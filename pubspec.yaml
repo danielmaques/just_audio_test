@@ -1,0 +1,31 @@
+name: flutter_tests
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+  async: ^2.11.0
+  audio_session: ^0.1.16
+  chunked_stream: ^1.4.2
+  crypto_x: ^0.0.4
+  encrypt: ^5.0.3
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  just_audio: ^0.9.35
+  just_audio_platform_interface: ^4.2.2
+  media_kit: ^1.0.2
+  pointycastle: ^3.7.3
+  rxdart: ^0.27.7
+  universal_platform: ^1.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
